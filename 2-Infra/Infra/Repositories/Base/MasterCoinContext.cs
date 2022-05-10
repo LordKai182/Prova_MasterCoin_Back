@@ -14,7 +14,7 @@ namespace Infra.Repositories.Base
 
             if (!contextOptions.IsConfigured)
             {
-                contextOptions.UseNpgsql("Server=localhost; userid=postgres; password=menadel182;database=BD_MC;");
+                contextOptions.UseNpgsql("Server=localhost; userid=postgres; password=1234;database=BD_MC;");
                 contextOptions.EnableSensitiveDataLogging();
             }
 

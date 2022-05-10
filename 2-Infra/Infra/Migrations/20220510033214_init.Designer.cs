@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Infra.Migrations
 {
     [DbContext(typeof(MasterCoinContext))]
-    [Migration("20220506170257_NomeUsuario")]
-    partial class NomeUsuario
+    [Migration("20220510033214_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

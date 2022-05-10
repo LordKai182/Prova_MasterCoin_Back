@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="AndLogger" Version="0.8.2" />
     <PackageReference Include="MediatR" Version="8.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="prmToolkit.NotificationPattern" Version="1.1.5" />
     <PackageReference Include="RestSharp" Version="106.2.0" />
